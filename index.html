@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>درع الوفاء والتميز العالمي | جامعة 21 سبتمبر للعلوم الطبية والتطبيقية</title>
+<meta name="description" content="درع الوفاء والتميز العالمي — إهداء من مركز التطوير وضمان الجودة إلى معالي رئيس الجامعة الأستاذ الدكتور مجاهد علي معصار بمناسبة دخول الجامعة تصنيف QS للجامعات العربية 2027م.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="درع الوفاء والتميز العالمي — إلى معالي رئيس الجامعة">
+<meta property="og:description" content="إهداء من مركز التطوير وضمان الجودة بمناسبة دخول جامعة 21 سبتمبر تصنيف QS للجامعات العربية 2027م.">
+<!-- لمعاينة الرابط في واتساب: استبدل المسار التالي بالرابط الكامل بعد النشر، مثال: https://USERNAME.github.io/REPO/assets/logo-university.png -->
+<meta property="og:image" content="assets/logo-university.png">
+<meta name="theme-color" content="#0a2b25">
+<link rel="icon" href="assets/logo-university.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Reem+Kufi:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#137a3f;
+  --green-deep:#0c5a2e;
+  --blue:#0a6fb8;
+  --navy:#0a3f70;
+  --orange:#e37424;
+  --ivory:#fbf7ec;
+  --ink:#24322b;
+  --muted:#5b6a62;
+  --gold-dark:#7d5f1a;
+  --gold:#b8913a;
+  --gold-light:#f0dc9c;
+  --stage:#082822;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  min-height:100vh;
+  font-family:"Amiri","Noto Naskh Arabic",serif;
+  color:var(--ink);
+  background:
+    radial-gradient(ellipse 80% 55% at 50% 0%, rgba(19,122,63,.55), transparent 70%),
+    radial-gradient(ellipse 70% 50% at 50% 100%, rgba(10,111,184,.35), transparent 70%),
+    var(--stage);
+  padding:clamp(14px,4vw,48px) clamp(10px,3vw,24px) 40px;
+  display:flex;flex-direction:column;align-items:center;gap:22px;
+}
+
+/* ===== الدرع ===== */
+.shield{
+  position:relative;width:100%;max-width:860px;
+  filter:drop-shadow(0 30px 40px rgba(0,0,0,.55)) drop-shadow(0 4px 6px rgba(0,0,0,.4));
+}
+.frame{
+  position:relative;
+  padding:clamp(8px,1.6vw,14px);
+  background:linear-gradient(135deg,#7d5f1a 0%,#e8cb78 22%,#a37f2c 45%,#f4e3a5 68%,#8a6a1f 100%);
+  clip-path:polygon(28px 0,calc(100% - 28px) 0,100% 28px,100% calc(100% - 28px),calc(100% - 28px) 100%,28px 100%,0 calc(100% - 28px),0 28px);
+}
+.frame::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.55) 50%,transparent 58%);
+  background-size:300% 100%;background-position:130% 0;
+  animation:sheen 2.4s .5s ease-out 1 forwards;
+}
+@keyframes sheen{to{background-position:-60% 0}}
+
+.paper{
+  position:relative;
+  background:
+    radial-gradient(ellipse at 50% 0%,#fffdf6 0%,var(--ivory) 60%,#f3ecd8 100%);
+  clip-path:polygon(20px 0,calc(100% - 20px) 0,100% 20px,100% calc(100% - 20px),calc(100% - 20px) 100%,20px 100%,0 calc(100% - 20px),0 20px);
+  padding:clamp(22px,4.5vw,48px) clamp(18px,5vw,56px) clamp(26px,4.5vw,44px);
+  text-align:center;
+}
+.paper::before{
+  content:"";position:absolute;inset:clamp(7px,1.4vw,12px);
+  border:1.5px solid var(--gold);
+  clip-path:polygon(14px 0,calc(100% - 14px) 0,100% 14px,100% calc(100% - 14px),calc(100% - 14px) 100%,14px 100%,0 calc(100% - 14px),0 14px);
+  pointer-events:none;
+}
+.paper > *{position:relative}
+
+/* ===== الترويسة ===== */
+.letterhead{
+  display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:clamp(8px,2vw,24px);
+}
+.letterhead img{display:block;height:clamp(104px,19vw,170px);width:auto;max-width:100%}
+.letterhead .logo-uni{justify-self:start}   /* يمين الصفحة في الاتجاه العربي */
+.letterhead .logo-dqac{justify-self:end}    /* يسار الصفحة */
+.org{
+  font-family:"Reem Kufi","Amiri",sans-serif;font-weight:500;
+  line-height:1.9;color:var(--navy);
+  font-size:clamp(.82rem,2.1vw,1.2rem);
+}
+.org .country{color:var(--muted);font-size:.9em}
+.org .uni{color:var(--green-deep);font-weight:600;font-size:1.12em}
+
+.rule{display:block;margin:clamp(14px,2.4vw,22px) auto;width:min(420px,80%);height:14px}
+
+/* ===== العنوان ===== */
+.title{
+  font-weight:700;line-height:1.5;
+  font-size:clamp(2rem,7.6vw,3.9rem);
+  background:linear-gradient(180deg,#a8821f 0%,#7d5f1a 45%,#c19a38 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  padding:.1em 0;
+}
+.kicker{
+  font-family:"Reem Kufi",sans-serif;font-weight:500;
+  color:var(--blue);font-size:clamp(.85rem,2vw,1.1rem);margin-top:2px;
+}
+
+/* ===== المُهدى إليه ===== */
+.to{margin-top:clamp(16px,3vw,28px)}
+.to .lead{color:var(--muted);font-size:clamp(1rem,2.4vw,1.25rem)}
+.to .name{
+  color:var(--green-deep);font-weight:700;line-height:1.6;
+  font-size:clamp(1.55rem,5.4vw,2.7rem);margin:2px 0;
+}
+.to .role{color:var(--navy);font-size:clamp(1.05rem,2.6vw,1.35rem)}
+
+/* ===== المناسبة ===== */
+.occasion{
+  margin:clamp(18px,3.4vw,30px) auto 0;
+  display:flex;align-items:center;gap:clamp(12px,3vw,26px);
+  background:linear-gradient(135deg,var(--navy),#0b5a9c);
+  color:#fff;text-align:right;
+  padding:clamp(14px,2.6vw,22px) clamp(14px,3vw,28px);
+  border-bottom:4px solid var(--orange);
+  border-radius:4px;
+}
+.medal{
+  flex:none;width:clamp(74px,15vw,108px);aspect-ratio:1;border-radius:50%;
+  display:grid;place-content:center;text-align:center;
+  background:radial-gradient(circle at 35% 30%,#fff 0%,#f6efd9 70%);
+  border:3px solid var(--gold);
+  box-shadow:0 0 0 3px var(--navy),0 0 0 5px var(--gold-light);
+  direction:ltr;font-family:Georgia,"Times New Roman",serif;color:var(--navy);line-height:1;
+}
+.medal b{font-size:clamp(1.5rem,4.6vw,2.3rem);letter-spacing:.02em}
+.medal span{font-size:clamp(.78rem,2.2vw,1.15rem);color:var(--orange);font-weight:700;margin-top:5px}
+.occasion p{font-size:clamp(1rem,2.5vw,1.3rem);line-height:2}
+.occasion strong{color:var(--gold-light)}
+
+/* ===== المحطات ===== */
+.milestones{
+  list-style:none;margin:clamp(24px,4vw,38px) 0 6px;
+  display:grid;grid-template-columns:repeat(3,1fr);gap:6px;position:relative;
+}
+.milestones::before{
+  content:"";position:absolute;top:9px;right:16.6%;left:16.6%;height:2px;
+  background:linear-gradient(90deg,var(--green),var(--blue),var(--orange));
+}
+.milestones li{position:relative;padding-top:28px}
+.milestones li::before{
+  content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);
+  width:20px;height:20px;border-radius:50%;background:var(--ivory);
+  border:4px solid var(--c);
+}
+.milestones li:nth-child(1){--c:var(--green)}
+.milestones li:nth-child(2){--c:var(--blue)}
+.milestones li:nth-child(3){--c:var(--orange)}
+.milestones time{display:block;font-weight:700;color:var(--c);font-size:clamp(1.05rem,2.8vw,1.4rem);line-height:1.4}
+.milestones span{display:block;color:var(--muted);font-size:clamp(.85rem,2.1vw,1.05rem);line-height:1.6;margin-top:2px}
+
+/* ===== النص ===== */
+.body-text{
+  margin:clamp(18px,3vw,28px) auto 0;max-width:62ch;
+  font-size:clamp(1.08rem,2.6vw,1.34rem);line-height:2.15;text-align:justify;text-align-last:center;
+}
+.vision{
+  margin:clamp(16px,3vw,26px) auto 0;max-width:56ch;
+  font-weight:700;color:var(--green-deep);
+  font-size:clamp(1.15rem,3vw,1.5rem);line-height:2.05;
+  padding:12px clamp(10px,3vw,26px);
+  border-top:1px solid var(--gold);border-bottom:1px solid var(--gold);
+}
+.pledge{
+  margin-top:clamp(20px,3.4vw,32px);
+  font-size:clamp(1.1rem,2.8vw,1.4rem);line-height:2.1;color:var(--navy);
+}
+.pledge .last{color:var(--ink)}
+
+/* ===== التوقيع ===== */
+.signature{margin-top:clamp(22px,4vw,36px)}
+.signature .label{
+  display:inline-block;padding:10px clamp(18px,5vw,40px);
+  font-family:"Reem Kufi","Amiri",sans-serif;font-weight:600;
+  font-size:clamp(1rem,2.6vw,1.3rem);color:#fff;
+  background:linear-gradient(135deg,var(--green-deep),var(--green));
+  border-top:3px solid var(--gold);
+  border-radius:3px;
+}
+
+/* ===== خارج الدرع ===== */
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.btn{
+  font:600 1rem "Reem Kufi","Amiri",sans-serif;
+  color:var(--gold-light);background:transparent;cursor:pointer;
+  border:1.5px solid rgba(240,220,156,.55);border-radius:999px;padding:9px 22px;
+  transition:background .2s,color .2s;
+}
+.btn:hover{background:var(--gold-light);color:var(--stage)}
+.btn:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+.foot{color:rgba(240,220,156,.75);font-size:.95rem;text-align:center;line-height:1.9}
+
+/* ===== شاشات صغيرة ===== */
+@media (max-width:640px){
+  .letterhead{grid-template-columns:auto auto;grid-template-areas:"uni dqac" "org org"}
+  .letterhead .logo-uni{grid-area:uni;justify-self:start}
+  .letterhead .logo-dqac{grid-area:dqac;justify-self:end}
+  .letterhead .org{grid-area:org}
+  .occasion{flex-direction:column;text-align:center}
+  .frame{clip-path:polygon(18px 0,calc(100% - 18px) 0,100% 18px,100% calc(100% - 18px),calc(100% - 18px) 100%,18px 100%,0 calc(100% - 18px),0 18px)}
+  .paper{clip-path:polygon(12px 0,calc(100% - 12px) 0,100% 12px,100% calc(100% - 12px),calc(100% - 12px) 100%,12px 100%,0 calc(100% - 12px),0 12px)}
+  .body-text{text-align:center}
+}
+@media (prefers-reduced-motion:reduce){
+  .frame::after{animation:none;opacity:0}
+}
+@media print{
+  @page{size:A4 portrait;margin:8mm}
+  body{background:#fff;padding:0}
+  .shield{filter:none;max-width:100%}
+  .toolbar,.foot{display:none}
+  .frame::after{display:none}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+
+<main class="shield" aria-label="درع الوفاء والتميز العالمي">
+  <div class="frame">
+    <article class="paper">
+
+      <header class="letterhead">
+        <img class="logo-uni" src="assets/logo-university.png" alt="شعار جامعة 21 سبتمبر للعلوم الطبية والتطبيقية">
+        <div class="org">
+          <div class="country">الجمهورية اليمنية</div>
+          <div class="uni">جامعة 21 سبتمبر للعلوم الطبية والتطبيقية</div>
+          <div>مركز التطوير وضمان الجودة</div>
+        </div>
+        <img class="logo-dqac" src="assets/logo-dqac.png" alt="شعار مركز التطوير وضمان الجودة">
+      </header>
+
+      <svg class="rule" viewBox="0 0 420 14" aria-hidden="true">
+        <line x1="0" y1="7" x2="180" y2="7" stroke="#b8913a" stroke-width="1.5"/>
+        <line x1="240" y1="7" x2="420" y2="7" stroke="#b8913a" stroke-width="1.5"/>
+        <path d="M210 0 L220 7 L210 14 L200 7 Z" fill="#e37424"/>
+        <circle cx="190" cy="7" r="2.5" fill="#b8913a"/><circle cx="230" cy="7" r="2.5" fill="#b8913a"/>
+      </svg>
+
+      <h1 class="title">دِرْعُ الوَفَاءِ وَالتَّمَيُّزِ العَالَمِيِّ</h1>
+
+      <section class="to">
+        <p class="lead">إلى معالي الأستاذ الدكتور /</p>
+        <p class="name">مجاهد علي معصار</p>
+        <p class="role">رئيس الجامعة – المحترم</p>
+      </section>
+
+      <section class="occasion">
+        <div class="medal" aria-hidden="true"><b>QS</b><span>2027</span></div>
+        <p>بمناسبة <strong>الإنجاز التاريخي غير المسبوق</strong> بدخول جامعة 21 سبتمبر رسمياً ضمن تصنيف (QS) العالمي للجامعات العربية 2027م.</p>
+      </section>
+
+      <ol class="milestones" aria-label="محطات المسيرة">
+        <li><time datetime="2019-10-21">21 أكتوبر 2019م</time><span>قرار التعيين المبارك</span></li>
+        <li><time datetime="2020-03-21">21 مارس 2020م</time><span>تأسيس مركز التطوير وضمان الجودة</span></li>
+        <li><time datetime="2027">2027م</time><span>دخول تصنيف QS للجامعات العربية</span></li>
+      </ol>
+
+      <p class="body-text">عرفانًا بمتابعتكم الحثيثة والمستمرة منذ قرار تعيينكم المبارك في الحادي والعشرين من أكتوبر 2019م، وتوجيهاتكم الدائمة التي لم تتوقف عند حدود تأسيس مركز التطوير وضمان الجودة بقراركم الحكيم الصادر في الحادي والعشرين من مارس 2020م، بل تجددت بالحثّ المستمر على الإنجاز وتطبيق معايير الاعتماد الأكاديمي، والتي أثمرت عن تفوق جامعتنا الفتيّة وريادتها في المنطقة.</p>
+
+      <p class="vision">إن هذا الإنجاز هو التجسيد الحي لرؤيتكم القيادية وحرصكم الدائم على دفع عجلة التطوير نحو آفاق العالمية.</p>
+
+      <p class="pledge">فلكم منا العهد بمواصلة المسيرة،<br><span class="last">ولكم من الله حسن الجزاء، ومن الجامعة كل الوفاء والعرفان.</span></p>
+
+      <svg class="rule" viewBox="0 0 420 14" aria-hidden="true">
+        <line x1="0" y1="7" x2="180" y2="7" stroke="#b8913a" stroke-width="1.5"/>
+        <line x1="240" y1="7" x2="420" y2="7" stroke="#b8913a" stroke-width="1.5"/>
+        <path d="M210 0 L220 7 L210 14 L200 7 Z" fill="#137a3f"/>
+        <circle cx="190" cy="7" r="2.5" fill="#b8913a"/><circle cx="230" cy="7" r="2.5" fill="#b8913a"/>
+      </svg>
+
+      <footer class="signature">
+        <span class="label">فريق مركز التطوير وضمان الجودة</span>
+      </footer>
+
+    </article>
+  </div>
+</main>
+
+<div class="toolbar">
+  <button class="btn" type="button" onclick="window.print()">طباعة الدرع / حفظ PDF</button>
+</div>
+<p class="foot">جامعة 21 سبتمبر للعلوم الطبية والتطبيقية · مركز التطوير وضمان الجودة</p>
+
+</body>
+</html>
